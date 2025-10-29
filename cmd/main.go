@@ -3,10 +3,10 @@ package main
 import (
 	"log"
 	"microservice-gateway/api"
-	"microservice-gateway/config"
-	"microservice-gateway/database"
-	"microservice-gateway/handlers"
-	"microservice-gateway/registry"
+	"microservice-gateway/internal/config"
+	"microservice-gateway/internal/database"
+	"microservice-gateway/internal/handlers"
+	"microservice-gateway/internal/registry"
 
 	"github.com/gin-gonic/gin"
 )

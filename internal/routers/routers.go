@@ -1,10 +1,10 @@
 package routers
 
 import (
-	"microservice-gateway/config"
+	"microservice-gateway/internal/config"
 	"microservice-gateway/internal/api"
 	internalhandlers "microservice-gateway/internal/handlers"
-	"microservice-gateway/middleware"
+	"microservice-gateway/internal/middleware"
 
 	"github.com/gin-gonic/gin"
 )
